@@ -1,36 +1,35 @@
-import { useCallback } from "react"
-import call from './call.png'
-import card_1 from './card_1.jpg'
-import card_2 from './card_2.png'
-import card_3 from './card_3.png'
-import card_4 from './card_4.png'
-import card_5 from './card_5.png'
-import card_6 from './card_6.png'
-import card_7 from './card_7.png'
-
 const ReviewData=[
 {
     id:1,
-    name: card_7,
+    name: "John",
     stars:4,
-    comment:"Hourly Home Care",
-    image:"4x higher coverage limit than traditional policies for computers and home office equipment."
+    comment:"The website is very helpful and the services provided are very useful for old people"
 },
 {
     id:2,
-    name: card_2,
+    name: "Harry",
     stars:4,
-    comment:"Personal Care",
-    image:"4x higher coverage limit than traditional policies for computers and home office equipment."
+    comment:"The website is good and the services provided are very useful for old people.But the interface can be made better"
 },
 {
     id:3,
-    name: card_3,
+    name: "Max",
     stars:3,
-    comment:"Private Nursing",
-    image:"4x higher coverage limit than traditional policies for computers and home office equipment."
+    comment:"Although it is good and helpful website, but the services are not provided in many regions including my region."
+},
+{
+    id:4,
+    name: "Tyler",
+    stars:5,
+    comment:"No complains. It is one of the best website providing service for old"
+},
+{
+    id:5,
+    name: "Jimmy",
+    stars:3,
+    comment:"Could be improved and the service coverage area should be increased to cover larger area"
 }
 
-
 ]
+
 export default ReviewData

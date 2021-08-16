@@ -2,6 +2,7 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight:900;
+  overflow-x: hidden;
 }
 #precaution{
   color:rgba(0, 71, 171, 1);
@@ -19,14 +20,6 @@ height:2px;;background-color:darkgray
 }
 
 .itemOfReview
-{
-  word-wrap:break-word;
-  background-color: white;
-  padding: 10px;
-  margin: 20px;
-  
-}
-.itemOfReviews
 {
   word-wrap:break-word;
   background-color: white;

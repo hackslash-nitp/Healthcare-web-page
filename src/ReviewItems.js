@@ -1,42 +1,30 @@
 import React from 'react'
-import call from './call.png'
-
+import Stars from './Stars.js'
 
 
 function ReviewItems(props)
 {         
     var sty={};
-    if(props.idNo>=4)
+   
      sty={
         width:"327px",
-        //height:"210px",
-        display:"none",
-        
-        
-        }
-        else
-        sty={
-            width:"327px",
-           // height:"210px",
-            
-            }
-    
-    
+        height:"210px",
+                
+        }    
     
         const idValue= "itemOfReview"+props.idNo;
-        console.log(props.idNo);
+       // console.log(props.idNo);
     
     
    const item= 
    <div className="itemOfReview" id={idValue} style={sty}>
-       <div style={{padding:"10px"}}>
+       <div style={{padding:"10px", width:"inherit",height:"inherit"}}>
            
        
-       <img src={props.name} alt=" "></img>
-        
-       
-       <h2 style={{fontSize:"18px"}}>{props.comment}</h2>
-       <h4 style={{fontSize:"14px"}}>{props.image}</h4>
+       <h4 style={{fontSize:"18px"}}>{props.name}</h4>
+        <Stars stars={props.stars} />
+     
+       <h4 style={{fontSize:"14px"}}>{props.comment}</h4>
        </div>
    </div>
    return (item)
