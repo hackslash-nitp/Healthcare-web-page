@@ -1,9 +1,11 @@
+
 import './App.css';
 import Header from './Header'
-import Review_1 from './Review_1'
+import Review_1 from './Slide'
 import Carousel from './Carousel'
 import Review from './Review'
 import Footer from './Footer'
+import Image from './Image'
 function App() {
   return (
     <div className="App">
@@ -11,6 +13,7 @@ function App() {
       <Review_1 />
       <Carousel />
       <Review />
+      <Image />
       <Footer/>
     </div>
   )

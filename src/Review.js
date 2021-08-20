@@ -24,7 +24,7 @@ const abc=
 
 
 <div className="SummaryOfReview" >
-        <h1>{avg}</h1>
+        <h1 style={{fontSize:"50px"}}>{avg}</h1>
         <Stars stars={avg}/>
         <h4>{len} verified customers reviewed by google</h4>
         
