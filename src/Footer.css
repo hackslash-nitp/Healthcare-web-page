@@ -1,0 +1,48 @@
+.footeralignment
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:10px ;
+}
+.Services li a {
+    display: block;
+    
+    text-align: left;
+    padding: 02px 02px;
+    
+    font-weight:100;
+    
+    font-style: normal;
+    font-size: 16px;
+    line-height: 27.58px;
+   color: #2B2D42;
+  }
+  .Services{
+    text-align: left;font-size: 16px;
+    line-height: 27.58px;
+    font-weight:100;
+   color: #2B2D42;
+  }
+ .Services li a:hover {
+    background-color:rgb(196, 193, 30);
+  }
+  #CopyrightMessage{
+    padding-right: 55%;
+  }
+
+  @media only screen and (max-width: 760px){
+    .footeralignment
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .UniverseCareLogoFooter{
+        display:none;
+    }
+    #CopyrightMessage{
+      padding-right: 0%;
+    }
+  
+  }

@@ -25,6 +25,9 @@
         
         height:255px;
     }
+    #people2{
+        display:none;
+    }
     #part_1{
         display:flex;
         flex-wrap:wrap;
@@ -72,11 +75,21 @@
             flex-direction: column;
     
         }
+        #people{
+            display:none;
+        }
+        #people2{
+            display:block;
+            width:100%;
+        }
     #screenshot{
         width: 100%;
         height: fit-content;
         align-items: center;
         
+    }
+    #screenshot2{
+        padding: 10px
     }
     #people{
         

@@ -1,4 +1,5 @@
 
+
 import call from './call.png'
 import card_1 from './card_1.jpg'
 import card_2 from './card_2.png'
@@ -34,3 +35,4 @@ const ReviewData=[
 
 ]
 export default ReviewData
+
